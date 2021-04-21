@@ -1,3 +1,13 @@
-# Creating Presentation Slides with Jupyter notebook
+# Projects for MTH 810 Spring 2021 at MSU
 
-Please see [blog post](http://echorand.me/presentation-slides-with-jupyter-notebook.html#.V19WnWJ96V4) on how I created my first slide deck with Jupyer Notebook.
+## Sieve of Eratosthenes for Irreducible Polynomials
+
+Rudimentary method to find irreducible polynomials below a certain degree
+
+## Fast Number Theoretic Transform and Inverse
+
+Fast computation of a transform applied to apolynomials over a finite field.
+
+## QR Code Overview
+
+Highlights of QR Codes with an emphasis on ECC.
