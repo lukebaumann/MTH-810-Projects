@@ -14057,7 +14057,8 @@ FINTT(FNTT) Error: [0, 0, 0, 0]
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>FYI: QR Codes flip the terminology for blocks and codewords.</p>
-<p>The number of erasures and errors that can be corrected is given by $e + 2 t \le d - p$ where $e$ is the number of erasures, $t$ is the number of errors, $f$ is the number of error correcting codewords, and $p$ is the number of misdecode protection codewords.</p>
+<p>The number of erasures and errors that can be corrected is given by $e + 2 t \le d - p$ where $e$ is the number of erasures, $t$ is the number of errors, $d$ is the number of error correcting codewords, and $p$ is the number of misdecode protection codewords.
+Not covered in our course, $p$ is the number of extra codewords that can help detect errors but not correct them, $n - k = d + p$.</p>
 
 </div>
 </div>
@@ -14069,7 +14070,7 @@ FINTT(FNTT) Error: [0, 0, 0, 0]
 <th>Version</th>
 <th>Total number<br/>of codewords</th>
 <th>Error correction Level</th>
-<th>Number of error correction<br/>codewords ($f = n - k$)</th>
+<th>Number of error<br/>correction codewords</th>
 <th>Value of $p$</th>
 <th>Number of error<br/>correction blocks</th>
 <th>Error correction code&lt;/br&gt;per block $(n, k, d)_{2^8}$</th>
