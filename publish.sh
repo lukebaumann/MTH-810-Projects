@@ -1,7 +1,7 @@
 #!/bin/bash
 
-jupyter-nbconvert --to slides slides.ipynb --reveal-prefix=reveal.js
-mv slides.slides.html  index.html
+jupyter nbconvert Projects.ipynb --to slides --no-prompt --TagRemovePreprocessor.remove_input_tags='["remove_cell"]' --SlidesExporter.reveal_theme=simple --reveal-prefix=reveal.js
+mv Projects.slides.html  index.html
 mkdir -p /tmp/workspace
 cp -r * /tmp/workspace/
 git add -A .
